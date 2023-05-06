@@ -26,7 +26,7 @@
 
 - **(클라이언트 프로그램과 서버 프로그램은 같은 IP에서 동작해야한다.)**
 
-- **_클라이언트 (Linux) 설정_**
+### 클라이언트 (Linux) 설정
 
 1. 기본 요구사항
 
@@ -82,7 +82,7 @@ ffmpeg_output_movies on -> off
 python ObjectDetection_Clnt.py
 ```
 
-- **_서버 (macOS(M1)) 설정_**
+### 서버 (macOS(M1)) 설정
 
 1. ObjectDetection.zip 을 압축해제한 후 ObjectDetection_Srv.py 스크립트와 haarcascades 폴더를 원하는 경로에 저장한다.
 
@@ -119,7 +119,7 @@ cd path
 python ObjectDetection_Srv.py
 ```
 
-- **_프로그램 실행_**
+### 프로그램 실행
 
 1. ObjectDetection_Clnt.py 서버 IP 와 port 로 바꾼 후 실행한다.
 
